@@ -1,0 +1,266 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header Start  */
+header {
+    height: 100vh;
+    background: url(./photo1.jpg)center center/cover no-repeat
+}
+.navbar img{
+    width: 60px;
+    margin-left: 100px;
+}
+ul {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+display: flex;
+justify-content: space-between ;
+align-items: center;
+}
+.navbar ul{
+    display: flex;
+    margin-right: 100px;
+}
+.navbar ul li a {
+    padding: 20px 20px;
+    color: #884c4c;
+    font-weight: bold ;
+}
+/*#navbar ul li a :hover {
+    border-bottom: 2px solid rgb(114, 185, 99);
+}
+*/
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    height: 75vh;
+}
+.content h1 {
+    font-size: 80px;
+    color: #420303;
+    font-weight: bold ;
+}
+.content p {
+margin: 20px 0px 40px;
+font-size: 20px;
+}
+.btn1{
+    width: 150px;
+    height: 60px;
+    background-color: #d7baba;
+    border-radius: 10%;
+    border: none;
+    display: inline-block;
+    text-align: center;
+    color :#730c0c;
+    margin: 10px 10px 40px;
+    font-size: large;
+}
+.btn2{
+    width: 150px;
+    height: 60px;
+    color :#730c0c;
+    background: none;
+    border-radius: 10%;
+    border-style: #ffffff;
+    display: inline-block;
+    text-align: center;
+    margin: 10px 10px 40px;
+    font-size: large;
+}
+
+.parent{
+    background-color: rgb(255, 247, 247);
+    display:inline-block;
+    text-align: center;
+    margin: 10px;
+    width: 100%;
+   
+}
+.ph_dessert {
+    width: 50px;
+    height: 20px;
+    width: 50%;
+    float: left;
+}
+.div2{
+    float: right; 
+    display:inline-block;
+    
+    margin: 10px;
+    width: 45%;
+    height: 495px;
+   
+}
+
+.div2 div{
+    display:inline-block;
+    text-align: center;   
+}
+.div2 div h2{
+   
+    text-align: center;
+    font-size: 80px;
+    color: #420303;
+    font-weight: bold ;
+}
+.div2 div p {
+    margin: 20px 0px 40px;
+    font-size: 20px;
+    }
+.vv{
+display: inline;
+margin-left: 10px;
+font-size: small;
+    }
+
+.parent2{
+    background-color: rgb(255, 247, 247);
+    display:inline-block;
+    text-align: center;
+    margin: 10px;
+    width: 100%;
+   
+}
+.parent2 img{
+    padding-top: 2%;
+
+}
+.div22{
+    float: left; 
+    display:inline-block;
+    text-align: center;
+    margin: 20px;
+    width: 45%;
+    height: 370px;
+   
+}
+
+.div22 div{
+    display:inline-block;
+    text-align: center;   
+}
+.div22 div h4{
+   
+    text-align: center;
+    font-size: 30px;
+    color: #e0c7c7;
+    font-weight: bold ;
+}
+.div22 div p {
+    margin: 20px 0px 40px;
+    font-size: 15px;
+    }
+
+    
+.parent3{
+    background-color: rgb(255, 247, 247);
+    display:inline-block;
+    text-align: center;
+    margin: 10px;
+    width: 100%;
+   
+}
+.maps{
+    padding-top: 2%;
+
+}
+.div223{
+    float: left; 
+    display:inline-block;
+    text-align: center;
+    margin: 20px;
+    width: 45%;
+    height: 370px;
+   
+}
+
+.div223 div{
+    display:inline-block;
+    text-align: center;   
+}
+.div223 div h4{
+   
+    text-align: center;
+    font-size: 30px;
+    color: #eab8b8;
+    font-weight: bold ;
+}
+.div223 div p {
+    margin: 20px 0px 40px;
+    font-size: 15px;
+    }
+
+
+
+.our_bakery{
+    background-color: rgb(248, 240, 240);
+    display:inline-block;
+    text-align: center;
+    margin: 200px 20px 30px;
+    width: 100%;
+}
+.our_bakery h2 {
+    font-size: 50px;
+    color: #420303;
+    font-weight: bold ;
+}
+.our_bakery p {
+margin: 20px 0px 40px;
+font-size: 20px;
+}
+
+.div3{
+   
+    display:inline-block;
+    text-align: center;
+    margin: 20px;
+    width: 30%;
+}
+.div3 img{
+    width: 100%;
+}
+
+.about_us{
+    background-color: rgb(220, 201, 201);
+    display:inline-block;
+    text-align: center;
+    margin: 200px 20px 30px;
+    width: 100%;
+}
+
+.div4{
+    display:inline-block;
+    text-align: center;
+    margin: 20px;
+    width: 20%;
+}
+
+.div4 h3 {
+    margin: 20px;
+    font-size: 20px;
+    color: #420303;
+    font-weight: bold ;
+}
+
+.div4 ul li{
+    list-style: circle;
+
+}
+
+.div4 ul li a {
+    font-size: larger;
+    color: #884c4c;
+    font-weight: bold ;
+    text-decoration:underline;
+}
